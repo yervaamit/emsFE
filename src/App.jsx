@@ -4,14 +4,17 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import HelloWorld from './HelloWorld'
 import ListEmployeeComponent from './components/ListEmployeeComponent'
+import HeaderComponent from './components/HeaderComponent'
+import FooterComponent from './components/FooterComponent'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-
+    <HeaderComponent/>
     <ListEmployeeComponent />
+    <FooterComponent/>
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
